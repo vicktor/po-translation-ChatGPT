@@ -86,7 +86,7 @@ def main():
 
     i = 0
     for entry in po:
-        prompt = "Translate this into polish {0}".format(entry.msgid)
+        prompt = "Translate this into {0}. {1}".format(language, entry.msgid)
         i += 1
         printProgressBar(i, total, prefix = 'Progress:', suffix = 'Translating to {0}'.format(language), length = 50)
         text = re.sub(r'^\n+', '',generate_response(prompt))
