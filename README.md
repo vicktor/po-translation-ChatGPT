@@ -1,6 +1,7 @@
 # po-translation-ChatGPT
 Translate any po file using ChatGPT to almost any language.
 
+![pogpt](https://user-images.githubusercontent.com/382114/226829527-9844ab95-4a8d-49db-9f35-de4b53fbb9c8.png)
 
 Copyright (c) 2023 Víctor Bautista Bermúdez
 
